@@ -23,13 +23,13 @@ loop do
     else
         if answer > secret_number
             guesses = guesses + 1
-            puts "Your answer is too COLDER!"
+            puts "Your answer is COLDER!"
             sleep 1
             puts "Try again."
         
         else  
             guesses = guesses + 1
-            puts "Your answer is too HOTTER!"
+            puts "Your answer is HOTTER!"
             sleep 1
             puts "Try again."
         end 
